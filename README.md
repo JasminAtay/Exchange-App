@@ -1,3 +1,10 @@
+# gh-pages
+```yarn add -D gh-pages```
+then add to pakage.json : { ... script:{ ... "predeploy": "npm run build", "deploy": "gh-pages -d build", }, ... "homepage": "https://yourwebadress.com" }
+to deploy to github run ```yarn deploy```
+go to github repo settings and select gh-page branch fror your github pages repo.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
